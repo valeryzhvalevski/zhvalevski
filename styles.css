@@ -223,3 +223,16 @@ footer a {
     padding: 7px 15px;
     transition: all 0.3s ease-in-out;
 }
+
+@media (max-width: 600px) {
+  .hero {
+    display: flex;
+    flex-direction: column;
+  }
+  .content {
+    display: flex;
+    flex-direction: column;
+    margin-left: 120px;
+    margin-right: 120px;
+  }
+}
