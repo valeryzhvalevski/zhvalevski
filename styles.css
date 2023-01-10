@@ -225,14 +225,55 @@ footer a {
 }
 
 @media (max-width: 600px) {
+body {
+  font-size: smaller;
+}
+  nav {
+    display: none;
+  }
   .hero {
     display: flex;
     flex-direction: column;
   }
+
+  img {
+    margin-top: 12px;
+  }
+
+.section-main-title {
+  font-size: 30px
+}
+  .section-profile-title {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: center;
+    text-align: center;
+  }
+
   .content {
     display: flex;
     flex-direction: column;
-    margin-left: 120px;
-    margin-right: 120px;
+    padding: 10px;
+    padding-bottom: 35px;
+    border-bottom: 1px solid #672f2f;
+    margin-top: 10px;
+    }
+
+  .section {
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
   }
+  .section-title {
+    text-align: center;
+  }
+}
+
+@media (max-width: 400px) {
+  pre {
+    font-size: 9px;
+  }
+
 }
