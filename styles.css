@@ -276,8 +276,8 @@ button {
       width: 100%;
       align-items: center;
       justify-content: flex-end;
-      padding: 25px;}
-
+      padding: 25px;
+  }
 }
 
 @media (max-width: 400px) {
@@ -285,8 +285,6 @@ button {
     font-size: 9px;
   }
 }
-
-
 
 .night {
   background-color: #110400;
